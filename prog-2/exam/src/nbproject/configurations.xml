@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Algorithm" projectFiles="true">
+        <itemPath>Algorithm.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Container" projectFiles="true">
+        <itemPath>Array.hpp</itemPath>
+        <itemPath>CircularBuffer.hpp</itemPath>
+        <itemPath>SequenceIterator.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Data" projectFiles="true">
+        <itemPath>Dataset.h</itemPath>
+        <itemPath>DatasetGenerator.h</itemPath>
+        <itemPath>Name.h</itemPath>
+        <itemPath>Person.h</itemPath>
+        <itemPath>Serializable.h</itemPath>
+        <itemPath>Serializer.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="Demo" projectFiles="true">
+        <itemPath>DemoUtil.hpp</itemPath>
+        <itemPath>Example.hpp</itemPath>
+        <itemPath>UI.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Utility" projectFiles="true">
+        <itemPath>Exceptions.hpp</itemPath>
+        <itemPath>Util.hpp</itemPath>
+      </logicalFolder>
+      <itemPath>Configuration.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>persons.txt</itemPath>
+      <itemPath>test_dataset_generator_deserialize.txt</itemPath>
+      <itemPath>test_dataset_generator_serialize.txt</itemPath>
+      <itemPath>test_deserialize_name.txt</itemPath>
+      <itemPath>test_deserialize_person.txt</itemPath>
+      <itemPath>test_serialize_name.txt</itemPath>
+      <itemPath>test_serialize_person.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Data" projectFiles="true">
+        <itemPath>DatasetGenarator.cpp</itemPath>
+        <itemPath>Name.cpp</itemPath>
+        <itemPath>Person.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f6"
+                     displayName="AlgorithmTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/AlgorithmTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7"
+                     displayName="ArrayTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/ArrayTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8"
+                     displayName="CircularBufferTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CircularBufferTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5"
+                     displayName="DatasetGeneratorTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/DatasetGeneratorTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="NameTest" projectFiles="true" kind="TEST">
+        <itemPath>tests/NameTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="PersonTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/PersonTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="SerializerTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/SerializerTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="UtilTest" projectFiles="true" kind="TEST">
+        <itemPath>tests/UtilTest.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="Algorithm.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CircularBuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Configuration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dataset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatasetGenarator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatasetGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DemoUtil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Example.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Exceptions.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Name.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Name.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SequenceIterator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serializable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serializer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Util.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f7">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f7</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f8">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f8</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="persons.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_dataset_generator_deserialize.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="test_dataset_generator_serialize.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="test_deserialize_name.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_deserialize_person.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_serialize_name.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_serialize_person.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/AlgorithmTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/ArrayTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CircularBufferTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/DatasetGeneratorTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/NameTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/PersonTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SerializerTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/UtilTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Algorithm.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CircularBuffer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Configuration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dataset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatasetGenarator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatasetGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DemoUtil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Example.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Exceptions.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Name.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Name.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SequenceIterator.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serializable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serializer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UI.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Util.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f7">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f7</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f8">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f8</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="persons.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_dataset_generator_deserialize.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="test_dataset_generator_serialize.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="test_deserialize_name.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_deserialize_person.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_serialize_name.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test_serialize_person.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/AlgorithmTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/ArrayTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CircularBufferTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/DatasetGeneratorTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/NameTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/PersonTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SerializerTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/UtilTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>CAlarmClock.hpp</itemPath>
+      <itemPath>CCounter.hpp</itemPath>
+      <itemPath>CGMTClock.hpp</itemPath>
+      <itemPath>CStopWatch.hpp</itemPath>
+      <itemPath>CTime.hpp</itemPath>
+      <itemPath>CWorldTimeClock.hpp</itemPath>
+      <itemPath>TestUtils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>TestUtils.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f5"
+                     displayName="CAlarmClockTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CAlarmClockTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1"
+                     displayName="CCounterTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CCounterTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="CGMTClockTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CGMTClockTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6"
+                     displayName="CStopWatchTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CStopWatchTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3"
+                     displayName="CTimeTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CTimeTest.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="CWorldTimeClockTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/CWorldTimeClockTest.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="CAlarmClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCounter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CGMTClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CStopWatch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CTime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CWorldTimeClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TestUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CAlarmClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CCounterTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CGMTClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CStopWatchTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CTimeTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CWorldTimeClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="CAlarmClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCounter.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CGMTClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CStopWatch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CTime.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CWorldTimeClock.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TestUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TestUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CAlarmClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CCounterTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CGMTClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CStopWatchTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CTimeTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/CWorldTimeClockTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,6 @@
+[submodule "arduino-iot-project"]
+	path = arduino-iot-project
+	url = https://github.com/SteveBinary/arduino-iot-project.git
+[submodule "mensa-app"]
+	path = mensa-app
+	url = https://github.com/SteveBinary/mensa-app.git
